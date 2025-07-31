@@ -25,6 +25,7 @@
   {% if content %}
 
     {% set caption = content.field_caption is not empty ? content.field_caption|render : null %}
+
     {{ include('drupaleasy_sdc:figure', {
       image: content.field_media_image,
       figure_caption: caption,

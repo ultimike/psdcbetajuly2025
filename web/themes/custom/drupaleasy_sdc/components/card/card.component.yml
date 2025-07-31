@@ -1,0 +1,35 @@
+name: Card
+status: stable
+description: A product card with image, title, price and optional description.
+props:
+  type: object
+  required:
+    - title
+    - price
+  properties:
+    classes:
+      type: array
+      items:
+        type: string
+      title: Paragraph classes
+      description: An array of paragraph-related classes for the wrapper tag.
+      examples: [ 'paragraph' ]
+    title:
+      type: string
+      title: Title
+      description: The product title.
+      examples:
+        - Taco meat
+    price:
+      type: number
+      title: Price
+      description: The product price.
+      examples:
+        - 6.49
+slots:
+  image:
+    title: Image
+    description: The product image.
+  description:
+    title: Description
+    description: A description of the product.
