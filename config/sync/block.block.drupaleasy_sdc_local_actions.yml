@@ -1,0 +1,20 @@
+uuid: 3d4e825a-5ce0-4a71-9088-8de7d070ece2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupaleasy_sdc
+_core:
+  default_config_hash: 6Hao8g1NC6qmuRRTnNzjqF7Cf6rYfcPBoeusBYSeB4I
+id: drupaleasy_sdc_local_actions
+theme: drupaleasy_sdc
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

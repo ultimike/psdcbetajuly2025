@@ -1,0 +1,22 @@
+uuid: 1ebcd3d9-5749-4ff8-9729-344c05a31430
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupaleasy_sdc
+_core:
+  default_config_hash: aOPAo9rz2BqXN4DRQmLU5zww-F-dPUhyK09h2BlhA5g
+id: drupaleasy_sdc_breadcrumbs
+theme: drupaleasy_sdc
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

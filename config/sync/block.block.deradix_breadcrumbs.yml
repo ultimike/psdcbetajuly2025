@@ -1,0 +1,22 @@
+uuid: 82789ab3-89aa-4972-9e55-95114a5f0d6c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - deradix
+_core:
+  default_config_hash: aOPAo9rz2BqXN4DRQmLU5zww-F-dPUhyK09h2BlhA5g
+id: deradix_breadcrumbs
+theme: deradix
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

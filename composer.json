@@ -24,7 +24,6 @@
         "drupal/navigation_extra_tools": "^1.2",
         "drupal/paragraphs": "^1.19",
         "drupal/radix": "^6.0",
-        "drupal/sdc_devel": "^1.0",
         "drush/drush": "^13.6"
     },
     "conflict": {
@@ -107,6 +106,7 @@
         }
     },
     "require-dev": {
-        "drupal/core-dev": "^11.2"
+        "drupal/core-dev": "^11.2",
+        "drupal/sdc_devel": "^1.0"
     }
 }

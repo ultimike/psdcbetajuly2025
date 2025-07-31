@@ -1,0 +1,25 @@
+uuid: 57b2ba4a-be17-4bc3-b62e-e79d69d8febb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupaleasy_sdc
+_core:
+  default_config_hash: JbZfT-93oPztCXjXlsb4dRiSkji9K12tArGdgL094Vk
+id: drupaleasy_sdc_branding
+theme: drupaleasy_sdc
+region: sidebar_first
+weight: -1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

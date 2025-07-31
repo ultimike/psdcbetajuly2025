@@ -1,0 +1,20 @@
+uuid: bd275d3b-fe85-42b1-a951-32521a2304bb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupaleasy_sdc
+_core:
+  default_config_hash: YyXjnd1MxzRoD_U0TAN-aFBNtzdoKOmwGLyuA_OrFuw
+id: drupaleasy_sdc_page_title
+theme: drupaleasy_sdc
+region: header
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

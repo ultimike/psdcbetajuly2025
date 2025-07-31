@@ -1,0 +1,27 @@
+uuid: 083ae792-ca30-4ec4-97c7-e4e5fb2f4426
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - deradix
+_core:
+  default_config_hash: XXNooMLzsKPh0pjJLGJB19JTi-dfCAxYWxNF3HUfStA
+id: deradix_main_menu
+theme: deradix
+region: navbar_left
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

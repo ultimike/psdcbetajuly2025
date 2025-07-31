@@ -1,0 +1,22 @@
+uuid: d284e982-88f8-41db-9ca3-00d9c44b908c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - deradix
+_core:
+  default_config_hash: ZBRe5Pfs0t-Y294EJdp9JZv9CbbSOkcxAAsLOewEWE4
+id: deradix_content
+theme: deradix
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

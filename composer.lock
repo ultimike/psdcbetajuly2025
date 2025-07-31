@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12f040927b5c8869811c4b5b0bf90800",
+    "content-hash": "4510bdc4d06abf4d6dc92b7553b4bcb4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1857,55 +1857,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/radix",
                 "issues": "https://www.drupal.org/project/issues/radix"
-            }
-        },
-        {
-            "name": "drupal/sdc_devel",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/sdc_devel.git",
-                "reference": "1.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/sdc_devel-1.0.1.zip",
-                "reference": "1.0.1",
-                "shasum": "3faec9bc22931a53dfda2768b4fa923a75143498"
-            },
-            "require": {
-                "drupal/core": "^10.3.12 || ^11.0.11 || ^11.1.2",
-                "twig/twig": "~3.19"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "1.0.1",
-                    "datestamp": "1741451950",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "mogtofu33",
-                    "homepage": "https://www.drupal.org/user/278510"
-                },
-                {
-                    "name": "pdureau",
-                    "homepage": "https://www.drupal.org/user/1903334"
-                }
-            ],
-            "description": "Provides development aids to Single-Directory Components developers.",
-            "homepage": "https://www.drupal.org/project/sdc_devel",
-            "support": {
-                "source": "https://git.drupalcode.org/project/sdc_devel"
             }
         },
         {
@@ -7710,6 +7661,55 @@
             "time": "2025-06-11T08:06:33+00:00"
         },
         {
+            "name": "drupal/sdc_devel",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/sdc_devel.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/sdc_devel-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "3faec9bc22931a53dfda2768b4fa923a75143498"
+            },
+            "require": {
+                "drupal/core": "^10.3.12 || ^11.0.11 || ^11.1.2",
+                "twig/twig": "~3.19"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1741451950",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mogtofu33",
+                    "homepage": "https://www.drupal.org/user/278510"
+                },
+                {
+                    "name": "pdureau",
+                    "homepage": "https://www.drupal.org/user/1903334"
+                }
+            ],
+            "description": "Provides development aids to Single-Directory Components developers.",
+            "homepage": "https://www.drupal.org/project/sdc_devel",
+            "support": {
+                "source": "https://git.drupalcode.org/project/sdc_devel"
+            }
+        },
+        {
             "name": "google/protobuf",
             "version": "v4.31.1",
             "source": {
@@ -9522,16 +9522,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.20",
+            "version": "2.1.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "a9ccfef95210f92ba6feea6e8d1eef42b5605499"
+                "reference": "1ccf445757458c06a04eb3f803603cb118fe5fa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a9ccfef95210f92ba6feea6e8d1eef42b5605499",
-                "reference": "a9ccfef95210f92ba6feea6e8d1eef42b5605499",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1ccf445757458c06a04eb3f803603cb118fe5fa6",
+                "reference": "1ccf445757458c06a04eb3f803603cb118fe5fa6",
                 "shasum": ""
             },
             "require": {
@@ -9576,7 +9576,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-26T20:45:26+00:00"
+            "time": "2025-07-28T19:35:08+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",

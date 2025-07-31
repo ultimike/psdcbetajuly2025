@@ -1,0 +1,22 @@
+uuid: e7cc0593-5161-4b04-9fea-6062cdae0a0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupaleasy_sdc
+_core:
+  default_config_hash: ZBRe5Pfs0t-Y294EJdp9JZv9CbbSOkcxAAsLOewEWE4
+id: drupaleasy_sdc_content
+theme: drupaleasy_sdc
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

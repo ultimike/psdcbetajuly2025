@@ -1,0 +1,20 @@
+uuid: c44192b7-6f8a-412b-8a6f-6befdceb118c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - deradix
+_core:
+  default_config_hash: YyXjnd1MxzRoD_U0TAN-aFBNtzdoKOmwGLyuA_OrFuw
+id: deradix_page_title
+theme: deradix
+region: header
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

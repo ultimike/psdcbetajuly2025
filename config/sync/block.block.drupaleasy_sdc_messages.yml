@@ -1,0 +1,22 @@
+uuid: 2b717b0d-f8dc-419e-a871-befc35e9f160
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupaleasy_sdc
+_core:
+  default_config_hash: aT4WRdr9Uo4jrnH2ccPleALACgUq4tQ4Q46xwF8X14s
+id: drupaleasy_sdc_messages
+theme: drupaleasy_sdc
+region: header
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

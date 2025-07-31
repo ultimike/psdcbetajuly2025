@@ -1,0 +1,25 @@
+uuid: cab2900b-8038-4b29-a6bf-fc4bed4af762
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - deradix
+_core:
+  default_config_hash: JbZfT-93oPztCXjXlsb4dRiSkji9K12tArGdgL094Vk
+id: deradix_branding
+theme: deradix
+region: navbar_branding
+weight: -1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

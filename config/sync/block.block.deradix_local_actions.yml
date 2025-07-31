@@ -1,0 +1,20 @@
+uuid: 08656202-e071-4323-8886-cf1a9c5bfc53
+langcode: en
+status: true
+dependencies:
+  theme:
+    - deradix
+_core:
+  default_config_hash: 6Hao8g1NC6qmuRRTnNzjqF7Cf6rYfcPBoeusBYSeB4I
+id: deradix_local_actions
+theme: deradix
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

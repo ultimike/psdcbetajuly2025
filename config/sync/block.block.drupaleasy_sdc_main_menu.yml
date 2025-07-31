@@ -1,0 +1,27 @@
+uuid: f6eb7502-2754-4296-a733-fc5796593468
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - drupaleasy_sdc
+_core:
+  default_config_hash: XXNooMLzsKPh0pjJLGJB19JTi-dfCAxYWxNF3HUfStA
+id: drupaleasy_sdc_main_menu
+theme: drupaleasy_sdc
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

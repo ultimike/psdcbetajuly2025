@@ -1,0 +1,27 @@
+uuid: 87da4c12-a3dc-47cc-bb05-4840a22cd298
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - deradix
+_core:
+  default_config_hash: 0_p0Fq-tOqHodf45GHRoU_F0JuJUTH2Hzr11lRGUfQA
+id: deradix_footer
+theme: deradix
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

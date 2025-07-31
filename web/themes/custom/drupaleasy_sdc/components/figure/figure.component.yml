@@ -1,0 +1,27 @@
+name: Figure
+status: stable
+description: Displays media images using figure HTML element.
+props:
+  type: object
+  properties:
+    figure_classes:
+      type: array
+      items:
+        type: string
+      title: Figure classes
+      description: An array of utility classes for the figure tag.
+      examples: ['standard']
+    figure_caption_classes:
+      type: array
+      items:
+        type: string
+      title: Figure caption classes
+      description: An array of utility classes for the figcaption tag.
+      examples: ['queso']
+slots:
+  image:
+    title: Image
+    description: The image to be displayed.
+  figure_caption:
+    title: Figure caption
+    description: A visible caption for the image.
