@@ -123,3 +123,18 @@
     Type:<strong>{{ node.bundle() }}</strong>
   {% endblock %}
 {% endembed %}
+
+{% set avatar %}
+  <img src="/sites/default/files/2025-07/stella.png" alt="John Doe" />
+{% endset %}
+{{ include('drupaleasy_sdc:steampunk_vip', {
+  name: 'John Doe',
+  title: 'Consultant',
+  bio: 'Experienced with Drupal 10, dedicated to mentoring new developers.',
+  x_url: 'https://x.com/johndoe',
+  mastodon_url: 'https://mastodon.social/@johndoe',
+  threads_url: 'https://www.threads.net/@johndoe',
+  bluesky_url: 'https://bsky.app/profile/johndoe.bsky.social',
+  linkedin_url: 'https://linkedin.com/in/johndoe',
+  avatar: avatar
+}) }}

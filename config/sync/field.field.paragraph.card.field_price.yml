@@ -1,0 +1,23 @@
+uuid: 8252fe67-5053-40ef-b16f-02fe40a50a4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_price
+    - paragraphs.paragraphs_type.card
+id: paragraph.card.field_price
+field_name: field_price
+entity_type: paragraph
+bundle: card
+label: Price
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

@@ -2,6 +2,7 @@ name: 'DrupalEasy SDC'
 type: theme
 'base theme': stable9
 version: 1.0.0
+enforce_prop_schemas: true
 libraries:
   - drupaleasy_sdc/base
   - drupaleasy_sdc/messages

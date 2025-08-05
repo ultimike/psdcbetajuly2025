@@ -1,0 +1,49 @@
+name: Steampunk VIP
+status: stable
+description: Displays an author profile card with a subtle steampunk aesthetic.
+
+props:
+  type: object
+  required:
+    - name
+  properties:
+    name:
+      type: string
+      title: Author name
+      description: The full name of the author.
+      examples: ['Ada Lovelace']
+    title:
+      type: string
+      title: Author title
+      description: The professional title or role of the author.
+      examples: ['Chief Inventor']
+    bio:
+      type: string
+      title: Biography
+      description: Short biography (under 50 words).
+      examples: ['Pioneer of mechanical computers and analytical engines.']
+    x_url:
+      type: string
+      title: X profile URL
+      description: Link to the author's X (Twitter/X) profile.
+    mastodon_url:
+      type: string
+      title: Mastodon profile URL
+      description: Link to the author's Mastodon profile.
+    threads_url:
+      type: string
+      title: Threads profile URL
+      description: Link to the author's Threads profile.
+    bluesky_url:
+      type: string
+      title: Bluesky profile URL
+      description: Link to the author's Bluesky profile.
+    linkedin_url:
+      type: string
+      title: LinkedIn profile URL
+      description: Link to the author's LinkedIn profile.
+
+slots:
+  avatar:
+    title: Avatar
+    description: Raw HTML markup for the avatar (typically an <img> tag).

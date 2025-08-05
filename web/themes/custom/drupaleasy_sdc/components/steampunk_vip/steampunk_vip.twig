@@ -1,0 +1,40 @@
+<div {{ attributes.addClass('steampunk-card') }} data-component-id="drupaleasy_sdc:steampunk_vip">
+  <div class="card-inner">
+    <div class="avatar">
+      {% if avatar %}
+        {{ avatar }}
+      {% else %}
+        <span class="avatar-placeholder" aria-hidden="true"></span>
+      {% endif %}
+    </div>
+
+    <div class="content">
+      <h2 class="name">{{ name }}</h2>
+      {% if title %}
+        <p class="title">{{ title }}</p>
+      {% endif %}
+
+      {% if bio %}
+        <p class="bio">{{ bio }}</p>
+      {% endif %}
+
+      <div class="social">
+        {% if x_url %}
+          <a href="{{ x_url }}" class="social-link x" aria-label="X">X</a>
+        {% endif %}
+        {% if mastodon_url %}
+          <a href="{{ mastodon_url }}" class="social-link mastodon" aria-label="Mastodon">m</a>
+        {% endif %}
+        {% if threads_url %}
+          <a href="{{ threads_url }}" class="social-link threads" aria-label="Threads">T</a>
+        {% endif %}
+        {% if bluesky_url %}
+          <a href="{{ bluesky_url }}" class="social-link bluesky" aria-label="Bluesky">✦</a>
+        {% endif %}
+        {% if linkedin_url %}
+          <a href="{{ linkedin_url }}" class="social-link linkedin" aria-label="LinkedIn">in</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
